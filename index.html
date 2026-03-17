@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #f5c400 0%, #e6a800 100%);
+      color: #000;
+    }
+    .card {
+      text-align: center;
+      padding: 3rem 4rem;
+      background: rgba(0, 0, 0, 0.8);
+      border-radius: 12px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      color: #f5c400;
+    }
+    h1 { font-size: 3rem; margin-bottom: 1rem; }
+    p  { font-size: 1.2rem; opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Hello, World!</h1>
+    <p>Running in a Docker container &mdash; ready for Azure Container Instances.</p>
+  </div>
+</body>
+</html>
